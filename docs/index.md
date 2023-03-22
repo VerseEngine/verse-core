@@ -8,5 +8,5 @@
 
 |  Package | Description |
 |  --- | --- |
-|  [verse-core](./verse-core.md) |  |
+|  [@verseengine/verse-core](./verse-core.md) |  |
 
