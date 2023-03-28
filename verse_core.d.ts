@@ -29,9 +29,13 @@ export interface Player {
    */
   getAngle(): number;
   /**
-   * name
+   * text data. Maximum size: 50KB.
    */
-  getName(): string|undefined;
+  getTextData(): string|undefined;
+  /**
+   * Date and time the text data was changed.
+   */
+  getTextDataChanged(): Date | null;
   /**
    * My Avatar Information.
    */
@@ -66,9 +70,9 @@ export interface OtherPerson {
     angle: number
   ): void;
   /**
-   * name
+   * text data
    */
-  setName(name:string): void;
+  setTextData(textData:string): void;
   /**
    * Receive a {@link https://developer.mozilla.org/en-US/docs/Web/API/MediaStream | MediaStream} of the voice chat.
    *

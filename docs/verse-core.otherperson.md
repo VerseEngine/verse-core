@@ -21,5 +21,5 @@ export interface OtherPerson
 |  [moveTo(position\_x, position\_y, position\_z, angle)](./verse-core.otherperson.moveto.md) | Receive movement. |
 |  [onDetailStream(data)](./verse-core.otherperson.ondetailstream.md) | Callback method to retrieve the Stream to receive detailed information. This stream is used to receive hand and head movements, facial expressions, etc see: [Player.onRequestDetailStream()](./verse-core.player.onrequestdetailstream.md) |
 |  [onVoiceMediaStream(ms)](./verse-core.otherperson.onvoicemediastream.md) | Receive a [MediaStream](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream) of the voice chat. |
-|  [setName(name)](./verse-core.otherperson.setname.md) | name |
+|  [setTextData(textData)](./verse-core.otherperson.settextdata.md) | text data |
 

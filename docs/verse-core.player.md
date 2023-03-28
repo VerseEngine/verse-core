@@ -19,7 +19,8 @@ export interface Player
 |  [getAngle()](./verse-core.player.getangle.md) | Front orientation. Controlled by y-axis only. |
 |  [getAvatar()](./verse-core.player.getavatar.md) | My Avatar Information. |
 |  [getAvatarChanged()](./verse-core.player.getavatarchanged.md) | Date and time the avatar was changed. |
-|  [getName()](./verse-core.player.getname.md) | name |
 |  [getPosition()](./verse-core.player.getposition.md) | position. |
+|  [getTextData()](./verse-core.player.gettextdata.md) | text data. Maximum size: 50KB. |
+|  [getTextDataChanged()](./verse-core.player.gettextdatachanged.md) | Date and time the text data was changed. |
 |  [onRequestDetailStream(factory)](./verse-core.player.onrequestdetailstream.md) | Callback method to retrieve the Stream to send detailed information. This stream is used to send hand and head movements, facial expressions, etc. |
 
