@@ -16,7 +16,7 @@ async function start() {
     player,
     new OtherPersonFactory(scene, adapter),
     {
-      // WebRTC settings to connect to overlay network.
+      // WebRTC settings to connect to the overlay network.
       iceServers: [
         { urls: "stun:stun.l.google.com:19302" },
         { urls: "stun:stun1.l.google.com:19302" },
