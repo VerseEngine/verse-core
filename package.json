@@ -10,6 +10,12 @@
     "type": "git",
     "url": "https://github.com/VerseEngine/verse-core"
   },
+  "homepage": "https://verseengine.cloud/",
+  "keywords": [
+    "vr",
+    "3d",
+    "metaverse"
+  ],
   "files": [
     "verse_core_bg.wasm",
     "verse_core.js",
