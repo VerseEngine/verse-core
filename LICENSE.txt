@@ -1,0 +1,122 @@
+Terms of Use
+The Terms and Conditions and conditions (hereinafter referred to as the "Terms and Conditions") shall be governed by and construed in accordance with the laws of Japan, as applied by Appland Co. (hereinafter referred to as "Appland"), a service provided by Appland (in the event that the name or content of the service is changed for any reason, the service after such change shall be included, and hereinafter referred to as the "Service"). The rights and obligations regarding the use of the Service between the user of the Service (hereinafter individually referred to as the "User" and collectively referred to as the “Users”) and the Service. In using the Service, the User is required to read and agree to the Terms and Conditions and Conditions in their entirety.
+The English text is for reference purposes. If there is any conflict or inconsistency between English text and Japanese text, the Japanese text shall prevail.
+
+Article 1 (General Provisions and Scope of Application)
+    1. The Terms stipulate the basic matters concerning the use of the Services provided and operated by Appland.
+    2. The Terms and Conditions and Conditions apply to Appland and to users with respect to all activities related to the use of the Service. By using the Service, users are deemed to have agreed to the Terms and Conditions.
+    3. In the event that Appland posts individual provisions or additional provisions (including, but not limited to, notices in the form of "Notices") regarding the Service on Appland's website, such provisions shall constitute a part of the Terms and Conditions. In the event that any individual provision or additional provision conflicts with the Terms, such individual provision or additional provision shall take precedence over the Terms and Conditions. Users shall check the Individual Regulations and Additional Regulations each time users use the Service, and users continued use of the Service after any addition or amendment of such regulations shall be deemed to constitute users’ agreement to such regulations.
+Article 2 (Definitions)
+In the Terms and Conditions, the meanings of the terms listed below shall be as set forth in the respective items.
+    (1) The “Service” refers to the service named “Verse Engine” (refers to the software library for the Appland’s website and related documents) operated and provided by Appland.
+    (2) “Agreement” refers to the contractual relationship regarding the use of the Service that arises between Appland users and Appland when users use the Service and includes the Terms and Conditions and any documents distributed, delivered, or posted by Appland regarding the Service (hereinafter, documents distributed, delivered, or posted by Appland regarding the Service are referred to as “Individual Terms of Use”).
+    (3) “Users” mean the corporation, organization, or individual who has agreed to the Terms and Conditions and has entered into the Agreement with Appland by using the Service.
+    (4) “Appland's website” means the website operated by Appland for the Service and the Service-related website (in the event that the domain or content of Appland's website is amended for any reason, including the domain after such amendment).
+    (5) “Intellectual Property Rights” means copyrights, patents, utility model rights, trademarks, design rights and other intellectual property rights (including the right to acquire such rights or to apply for registration of such rights).
+    (6) “Open-Source Code, etc.” means software libraries for websites and their documentation published by Appland on the Service.
+Article 3 (Formation of Agreement)
+    1. When users use the Service, an Agreement in accordance with the various provisions of the Terms and Conditions is formed between users and Appland, and users are able to use the Service. If users are a minor, users must use the Service with the consent of users' legal representative.
+    2. If users, as a minor, use the Service without the consent of users legal representative, falsely claiming that users have the consent of users' legal representative, or falsely claiming that users are of legal age, or otherwise mislead others into believing that users are of legal capacity, any legal action related to the Service cannot be revoked.
+    3. If users are a minor at the time of agreeing to the Terms and Conditions and use the Service after users have reached the age of majority, users are deemed to have ratified all legal acts related to the Service.
+Article 4 (Use of the Service)
+    1. Users may use the Service within the scope of the purposes set forth in the Terms and Conditions and not in violation of the Terms and Conditions, and in accordance with the ways specified by Appland.
+    2. Users are granted permission to use the Service and to reproduce, modify, amend, alter, or adapt the Open-Source Code, etc. provided by the Service for commercial purposes, provided that users comply with the requirements set forth in the Terms and Conditions, and that users display the copyright notice set forth below.
+Copyright (c) 2023 Appland, Co.
+    3. Users shall prepare and maintain the terminals, software and other equipment, telecommunication lines and other telecommunication environment, etc. necessary to receive the Service at users’ own expense and responsibility.
+    4. Users agree that all or part of the Service may be made available only to those customers who meet the requirements for age, identity verification, availability of customer information, and other conditions deemed necessary by Appland.
+Article 5 (Paid Services)
+    1. In the Service, users may use paid services within the Service by paying a separate usage fee. The usage fee for paid services shall be determined separately by Appland and indicated on Appland's website, etc.
+    2. In the event that users delay payment of the fees, etc., as set forth in the preceding paragraph, users shall pay to Appland a late payment penalty at the rate of 14.6% per annum.
+Article 6 (Prohibited Acts)
+In using the Service, users shall not commit any of the following acts by users themselves or a third party.
+    （1） Acts in violation of laws, court judgments, decisions or orders, or legally binding administrative measures, and acts that promote or may promote such acts
+    （2） Fraud or threats against Appland, other users or other third parties
+    （3） Acts that are offensive to public order and morals or may be detrimental to good morals
+    （4） Any act that infringes or may infringe upon the intellectual property rights, portrait rights, privacy, honor, or any other rights or interests of Appland, other users, or any third party.
+    （5） Actions to use, create, or distribute external tools that have effects that are not normally intended by the Service, or actions that take advantage of bugs that are not normally intended by the Service.
+    （6） Actions that induce malfunction of the Service
+    （7） Transmitting information through the Service to Appland, other users, or other third parties that Appland deems to fall under or correspond to any of the following:
+Information containing excessively violent or cruel expressions 
+Information that contains computer viruses or other harmful programs 
+Information containing excessively obscene expressions 
+Information containing expressions that promote discrimination 
+Information that includes expressions that encourage suicide or self-harm 
+Information containing expressions that promote the inappropriate use of drugs 
+Information containing antisocial expressions 
+Information that seeks to spread to third parties, such as junk mail, spam mail, chain mail, etc. 
+Information that includes illegal solicitation, advertising, etc. 
+Information containing expressions that may cause discomfort to others 
+Information similar to the above
+    （8） Disassembling, decompiling, reverse engineering, or otherwise analyzing the source code of the Service
+    （9） Actions that place an excessive load on the network or system of the Service.
+    （10） Acts of unauthorized access to the system connected to the Service in general, or unauthorized rewriting or deletion of information stored in Appland's facilities, or other acts that cause damage to Appland.
+    （11） Intentionally publishing or posting false data, etc.
+    （12） Actions intended to collect information about other users
+    （13） Impersonating Appland, another users, or any other third party 
+    （14） Using the Service in a place where it is inappropriate to use the Service 
+    （15） Any act that is contrary to the Terms and Conditions, the Individual Terms of Use, or the purpose or intent of the Service. 
+    （16） Acts that directly or indirectly cause or facilitate any of the aforementioned acts 
+    （17） Other activities that Appland deems inappropriate.
+Article 7 (Termination of Use of the Service by Users)
+    1. Users may terminate users’ use of the Service at any time. Even if users terminate use of the Service in error, users agree in advance that users will not be able to recover any of users’ information, terminal information, or other information stored in the Service.
+    2. Users shall not be released from any and all obligations and liabilities (including, but not limited to, compensation for damages) under this Agreement to Appland and other third parties even after the termination of users’ use of the Service.
+    3. Appland may retain and use the information provided by users to Appland even after users have terminated users’ use of the Service.
+Article 8 (Measures to be taken in case of violation of the Terms and Conditions, etc.)
+            1. If Appland determine that users fall under any of the following items or are likely to fall under any of the following items, Appland may, at our discretion, temporarily suspend or restrict users’ use of the Service (hereinafter referred to as “suspension, etc.”).
+    （1） If users violate any of the provisions of the Terms and Conditions
+    （2） When it is found that all or part of the information provided to Appland is false. 
+    （3） Appland ceases to make payments or becomes insolvent, or a petition is filed for commencement of bankruptcy proceedings, civil rehabilitation proceedings, corporate reorganization proceedings, special liquidation, or any other similar proceedings 
+    （4） Users have died, or have been placed under guardianship, conservatorship, or assisted guardianship. 
+    （5） If users have received or are currently receiving any measures such as suspension of use in the past in connection with the use of the Service 
+    （6） A minor, adult ward, person under curatorship or person under assistance who has not obtained the consent, etc. of his/her legal representative, guardian, conservator or assistant. 
+    （7） If Appland determine that the applicant is an antisocial force, etc., or is involved in any interaction or involvement with antisocial forces, etc., such as cooperating or participating in the maintenance, operation, or management of antisocial forces, etc., through funding or other means. 
+    （8） When Appland deem it necessary for the operation and maintenance of this service 
+    （9） In the event that Appland determines that there are other reasons similar to those listed in the preceding items.
+            2. Users shall not be released from any and all obligations and liabilities (including, but not limited to, liability for damages) under this Agreement to Appland and other third parties even after the termination of users’ use of the Service. 
+Article 9 (Amendment, Addition, Abolition, Suspension, etc. of the Service)
+    1. Appland reserves the right to amend or add to the Service, in whole or in part, without prior notice to users.
+    2. Appland may, at its discretion, terminate the provision or operation of all or part of the Service. In the event that Appland, at its discretion, terminates the provision or operation of the Service, in whole or in part, Appland shall notify users of such termination in a way Appland deems appropriate. However, in case of emergency, Appland may not notify users.
+    3. Appland reserves the right to temporarily suspend all or part of the Service without prior notice to users in the event of any of the following events:
+    （1） For periodic or emergency maintenance and repair of hardware, software, and telecommunications equipment and facilities for this service.
+    （2） When the system is overloaded due to excessive access or other unforeseen factors 
+    （3） When it becomes necessary to ensure the security of users 
+    （4） When the services of a telecommunications carrier are not provided 
+    （5） In the event that provision of this service is difficult due to force majeure such as natural disasters, etc. 
+    （6） In the event that provision of this service is difficult due to fire, power failure, other unforeseen accidents, war, disputes, uprisings, riots, labor disputes, etc. 
+    （7） When the operation of this service becomes impossible due to laws and regulations or measures based on such laws and regulations 
+    （8） Any other cases deemed necessary by Appland in accordance with the preceding items.
+    4. Appland shall not be liable for any loss or damage incurred by users as a result of any action taken by us pursuant to this Article.
+Article 10 (Attribution of Rights)
+    1. All intellectual property rights related to the Service and the content and other information provided by Appland in the Service belong to Appland or the party that has licensed them to Appland, and any license to use the Service under the Terms and Conditions does not imply a license to use the intellectual property rights of Appland or the party that has licensed them to Appland. 
+    2. Users may not adapt, edit, or modify the information, etc. provided by Appland (excluding open-source code, etc. provided on the Service, which may be modified) without Appland’s permission, nor may users allow any third party to use or disclose such information, etc. to any third party, or engage in any act that may infringe the intellectual property rights of Appland or any party that has granted a license to Appland (including but not limited to disassembly, decompile, or reverse engineering) for any reason.
+    3. Trademarks, logos, service marks, etc. (hereinafter collectively referred to as "Trademarks, etc.") may appear on the Service. However, Appland does not transfer or grant any license to users or any other third party to use such Trademarks, etc.
+Article 11 (Confidentiality)
+    1. Users shall treat as confidential any non-public information disclosed by Appland to users in connection with the Services that Appland requires users to treat as confidential, except with Appland's prior written consent.
+    2. Whenever requested by Appland, users shall return or dispose of the information described in the preceding paragraph, documents and other recorded media containing the information described in the preceding paragraph, and all copies thereof, without delay, in accordance with Appland's instructions.
+Article 12 (Compensation for Damages)
+    1. If users cause damages to Appland by violating the Terms and Conditions or in connection with the use of the Service, users shall compensate Appland for all damages (including the costs of attorneys and other experts and our labor costs). 
+    2. In the event that Appland receives a claim from another customer or a third party for infringement of rights or any other reason in connection with users’ use of the Service, users agree to pay to Appland the amount of money Appland is forced to pay to the third party based on the claim and the amount of money Appland incurs to resolve disputes related to the claim (including the costs of attorneys and other experts and our labor costs). 
+    3. Appland shall not be liable for any and all damages incurred by users in connection with the Service, except in the case of willful misconduct or gross negligence on the part of Appland.
+    4. The preceding paragraph shall not apply if the Agreement between Appland and users regarding the provision of the Service constitutes a consumer contract as defined in the Consumer Contract Act, and Appland shall be liable only for direct and ordinary damages for any damages incurred by users due to the negligence of Appland.
+Article 13 (Disclaimer of Warranty and Disclaimer of Liability)
+    1. Appland makes no warranty that the Service, or any information that users may obtain through the Service, will be suitable for users’ particular purpose; that it will have the expected functionality, commercial value, accuracy, usefulness, or completeness; that use of the Service will comply with applicable laws, regulations, or internal rules of any industry organization; or that it will be error-free. 
+    2. Users acknowledge in advance that Appland does not guarantee that the Service is compatible with all terminals, and that even if the Service is compatible with all terminals when users start using the Service, there is a possibility of malfunctions in the operation of the Service. Users acknowledges in advance that defects in the operation of the Service may occur even if such defects are supported at the time of commencement of use.
+    3. Appland is under no obligation to monitor any and all communication services between users, including P2P communications, that occur as a result of users’ use of the Service.
+    4. Appland shall not be liable for any damages arising out of or in connection with the Service, including, but not limited to, damages resulting from the interruption, suspension, termination, unavailability, or amendment of the Service, for any reason whatsoever.
+    5. If a dispute arises between users and a third party (including disputes between users) regarding the Service, users shall immediately notify Appland to that effect and resolve the dispute at users’ own responsibility and expense, and Appland shall not be involved in any way and shall assume no responsibility whatsoever.
+Article 14 (Revision of Terms and Conditions)
+Appland may amend or add to the Terms and Conditions and the Individual Terms of Use for the Service. If Appland changes the Terms or the Individual Terms of Use, Appland shall notify users of such changes in the manner set forth in the following Article. If users use the Service or do not terminate users’ use of the Service within the period of time specified by us after such notification, users shall be deemed to have agreed to the amendments to the Terms and Conditions and the Individual Terms of Use for the Service.
+Article 15 (Transfer of Status under the Agreement, etc.)
+1.	 Users may not assign users’ position under the Agreement or users’ rights and obligations under the Terms, in whole or in part, to any third party (including comprehensive succession through merger, company split, etc.) or use them for security purposes, without the prior written consent of Appland. 
+2.	 In the event that Appland transfers the business of the Service to another company, Appland may transfer the position, rights and obligations under the Agreement, as well as information on usage history and other customer information, to the transferee of such business transfer, and users shall be deemed to have agreed in advance to such transfer in this paragraph. The business transfer referred to in this paragraph shall include comprehensive succession through a merger or corporate split, etc., in which Appland becomes an extinct company or a splitting company.
+Article 16 (Severability)
+If any provision of the Terms and Conditions or part thereof is determined to be invalid or unenforceable under the Consumer Contract Act or any other law or ordinance, the remaining provisions of the Terms and Conditions and the remaining part of any provision that is determined to be invalid or unenforceable in part shall remain in full force and effect, and Appland and users shall endeavor to modify such invalid or unenforceable provision or part to the extent necessary to make it legal and enforceable, and to ensure the intent of such invalid or unenforceable provision or part and its legal and economic equivalent. 
+Article 17 (Effective Period)
+1.	 This Agreement shall remain in effect between Appland and users for the duration of users’ use of the Service or the Open-Source Code, etc. of the Service.
+2.	 The provisions of Article 7, Paragraphs 2 and 3, Articles 10 through 13, and Articles 16 through 19 shall survive the termination of this Agreement.
+Article 18 (Governing Law and Agreed Jurisdiction)
+The Terms and Conditions shall be governed by and construed in accordance with the laws of Japan, and any and all disputes arising out of or relating to the Terms and Conditions shall be submitted to the exclusive jurisdiction of the Tokyo District Court as the court of first instance.
+Article 19 (Consultation and Settlement)
+In the event that any matter is not stipulated in the Terms and Conditions or any question arises regarding the interpretation of the Terms and Conditions, Appland and users shall promptly resolve the matter through mutual consultation in accordance with the principle of good faith.
+
+[Established June 21, 2023]

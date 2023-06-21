@@ -5,7 +5,7 @@
   ],
   "description": "Web-based Metaverse Engine on P2P overlay network.",
   "version": "1.0.0",
-  "license": "UNLICENSED",
+  "license": "SEE LICENSE IN LICENSE.txt",
   "repository": {
     "type": "git",
     "url": "https://github.com/VerseEngine/verse-core"
