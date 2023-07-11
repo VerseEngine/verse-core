@@ -1,4 +1,4 @@
-# verse-core
+# verse-core &middot; [![npm version](https://img.shields.io/npm/v/@verseengine%2Fverse-core.svg?style=flat)](https://www.npmjs.com/package/@verseengine%2Fverse-core)
  Web-based Metaverse Engine on P2P overlay network.
 
 ## Usage
