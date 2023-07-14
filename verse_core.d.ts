@@ -341,6 +341,96 @@ export class Verse {
 */
   start(): Promise<void>;
 /**
+* Uniquely identifying ID.  The same user will have a different ID each time they connect
+*
+* The session ID is the public key for ED25519.
+* Verse holds the private key for the session ID internally
+*
+* The session ID (public key) of the other person can be obtained when {@link OtherPersonFactory.create} is called
+* @returns {string}
+*/
+  getSessionID(): string;
+/**
+* Create a data signature with the private key of the session ID.
+*
+* @example
+* ```ts
+* const verse = VerseCore.Verse.new(...);
+* ...
+* const data = ...;
+* const signature = verse.sign(data);
+* await fetch('...',
+*   headers: {
+*	    'Content-Type': 'application/json'
+*   },
+*   body: JSON.stringify({
+*     'sessionID': verse.getSessionID(),
+*     signature,
+*     data
+*   })
+* });
+*
+* ...
+* const valid = VerseCore.Verse.verify(sessionID, signature, data);
+* if(!valid) { throw new Error('invalid data'); }
+* ```
+* @param {Uint8Array} data
+* @returns {string}
+*/
+  sign(data: Uint8Array): string;
+/**
+* Create a data signature with the private key of the session ID.
+*
+* @example
+* ```ts
+* const verse = VerseCore.Verse.new(...);
+* ...
+* const data = ...;
+* const signature = verse.signString(data);
+* await fetch('...',
+*   headers: {
+*	    'Content-Type': 'application/json'
+*   },
+*   body: JSON.stringify({
+*     'sessionID': verse.getSessionID(),
+*     signature,
+*     data
+*   })
+* });
+*
+* ...
+* const valid = VerseCore.Verse.verifyString(sessionID, signature, data);
+* if(!valid) { throw new Error('invalid data'); }
+* ```
+* @param {string} data
+* @returns {string}
+*/
+  signString(data: string): string;
+/**
+* Verify the signature.
+* Verifies that the data was signed in the session of the session ID of the input
+*
+* @example
+* see:  {@link Verse.sign}
+* @param {string} session_id
+* @param {string} signature
+* @param {Uint8Array} data
+* @returns {boolean}
+*/
+  static verify(session_id: string, signature: string, data: Uint8Array): boolean;
+/**
+* Verify the signature.
+* Verifies that the data was signed in the session of the session ID of the input
+*
+* @example
+* see:  {@link Verse.signString}
+* @param {string} session_id
+* @param {string} signature
+* @param {string} data
+* @returns {boolean}
+*/
+  static verifyString(session_id: string, signature: string, data: string): boolean;
+/**
 * For debugging.
 * @returns {string}
 */
@@ -380,6 +470,11 @@ export interface InitOutput {
   readonly verse_start: (a: number) => number;
   readonly verse_maxAvatarFileSize: (a: number) => number;
   readonly verse_maxNumberOfPeople: (a: number) => number;
+  readonly verse_getSessionID: (a: number, b: number) => void;
+  readonly verse_sign: (a: number, b: number, c: number) => void;
+  readonly verse_signString: (a: number, b: number, c: number, d: number) => void;
+  readonly verse_verify: (a: number, b: number, c: number, d: number, e: number) => number;
+  readonly verse_verifyString: (a: number, b: number, c: number, d: number, e: number, f: number) => number;
   readonly verse_getDebugStatus: (a: number, b: number) => void;
   readonly verse_getDebugDistance: (a: number, b: number) => void;
   readonly __wbg_detailinputstreamfactory_free: (a: number) => void;

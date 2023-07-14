@@ -56,13 +56,18 @@ async function start() {
 |  [free()](./verse-core.verse.free.md) |  | The free function is required to be invoked to deallocate resources on the WebAssembly side of things. |
 |  [getDebugDistance()](./verse-core.verse.getdebugdistance.md) |  | For debugging. |
 |  [getDebugStatus()](./verse-core.verse.getdebugstatus.md) |  | For debugging. |
+|  [getSessionID()](./verse-core.verse.getsessionid.md) |  | <p>Uniquely identifying ID. The same user will have a different ID each time they connect</p><p>The session ID is the public key for ED25519. Verse holds the private key for the session ID internally</p><p>The session ID (public key) of the other person can be obtained when [OtherPersonFactory.create()](./verse-core.otherpersonfactory.create.md) is called</p> |
 |  [isMicOn()](./verse-core.verse.ismicon.md) |  | Get microphone ON/OFF. |
 |  [isSpeakerOn()](./verse-core.verse.isspeakeron.md) |  | Voice receive ON/OFF. |
 |  [micOff()](./verse-core.verse.micoff.md) |  | Turn off the microphone. |
 |  [micOn()](./verse-core.verse.micon.md) |  | Turn on the microphone. |
 |  [new(entrance\_server\_url, player, other\_person\_factory, options)](./verse-core.verse.new.md) | <code>static</code> |  |
 |  [setMicAudioConstraints(audio\_constraints)](./verse-core.verse.setmicaudioconstraints.md) |  | Setting up a microphone for voice chat. |
+|  [sign(data)](./verse-core.verse.sign.md) |  | Create a data signature with the private key of the session ID. |
+|  [signString(data)](./verse-core.verse.signstring.md) |  | Create a data signature with the private key of the session ID. |
 |  [speakerOff()](./verse-core.verse.speakeroff.md) |  | Turn off the voice receive. |
 |  [speakerOn()](./verse-core.verse.speakeron.md) |  | Turn on the voice receive. |
 |  [start()](./verse-core.verse.start.md) |  | Start connecting to the network. |
+|  [verify(session\_id, signature, data)](./verse-core.verse.verify.md) | <code>static</code> | Verify the signature. Verifies that the data was signed in the session of the session ID of the input |
+|  [verifyString(session\_id, signature, data)](./verse-core.verse.verifystring.md) | <code>static</code> | Verify the signature. Verifies that the data was signed in the session of the session ID of the input |
 

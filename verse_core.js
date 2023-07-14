@@ -483,6 +483,163 @@ export class Verse {
         return ret >>> 0;
     }
     /**
+    * Uniquely identifying ID.  The same user will have a different ID each time they connect
+    *
+    * The session ID is the public key for ED25519.
+    * Verse holds the private key for the session ID internally
+    *
+    * The session ID (public key) of the other person can be obtained when {@link OtherPersonFactory.create} is called
+    * @returns {string}
+    */
+    getSessionID() {
+        try {
+            const retptr = wasm.__wbindgen_add_to_stack_pointer(-16);
+            wasm.verse_getSessionID(retptr, this.ptr);
+            var r0 = getInt32Memory0()[retptr / 4 + 0];
+            var r1 = getInt32Memory0()[retptr / 4 + 1];
+            return getStringFromWasm0(r0, r1);
+        } finally {
+            wasm.__wbindgen_add_to_stack_pointer(16);
+            wasm.__wbindgen_free(r0, r1);
+        }
+    }
+    /**
+    * Create a data signature with the private key of the session ID.
+    *
+    * @example
+    * ```ts
+    * const verse = VerseCore.Verse.new(...);
+    * ...
+    * const data = ...;
+    * const signature = verse.sign(data);
+    * await fetch('...',
+    *   headers: {
+    *	    'Content-Type': 'application/json'
+    *   },
+    *   body: JSON.stringify({
+    *     'sessionID': verse.getSessionID(),
+    *     signature,
+    *     data
+    *   })
+    * });
+    *
+    * ...
+    * const valid = VerseCore.Verse.verify(sessionID, signature, data);
+    * if(!valid) { throw new Error('invalid data'); }
+    * ```
+    * @param {Uint8Array} data
+    * @returns {string}
+    */
+    sign(data) {
+        try {
+            const retptr = wasm.__wbindgen_add_to_stack_pointer(-16);
+            wasm.verse_sign(retptr, this.ptr, addHeapObject(data));
+            var r0 = getInt32Memory0()[retptr / 4 + 0];
+            var r1 = getInt32Memory0()[retptr / 4 + 1];
+            var r2 = getInt32Memory0()[retptr / 4 + 2];
+            var r3 = getInt32Memory0()[retptr / 4 + 3];
+            var ptr0 = r0;
+            var len0 = r1;
+            if (r3) {
+                ptr0 = 0; len0 = 0;
+                throw takeObject(r2);
+            }
+            return getStringFromWasm0(ptr0, len0);
+        } finally {
+            wasm.__wbindgen_add_to_stack_pointer(16);
+            wasm.__wbindgen_free(ptr0, len0);
+        }
+    }
+    /**
+    * Create a data signature with the private key of the session ID.
+    *
+    * @example
+    * ```ts
+    * const verse = VerseCore.Verse.new(...);
+    * ...
+    * const data = ...;
+    * const signature = verse.signString(data);
+    * await fetch('...',
+    *   headers: {
+    *	    'Content-Type': 'application/json'
+    *   },
+    *   body: JSON.stringify({
+    *     'sessionID': verse.getSessionID(),
+    *     signature,
+    *     data
+    *   })
+    * });
+    *
+    * ...
+    * const valid = VerseCore.Verse.verifyString(sessionID, signature, data);
+    * if(!valid) { throw new Error('invalid data'); }
+    * ```
+    * @param {string} data
+    * @returns {string}
+    */
+    signString(data) {
+        try {
+            const retptr = wasm.__wbindgen_add_to_stack_pointer(-16);
+            const ptr0 = passStringToWasm0(data, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+            const len0 = WASM_VECTOR_LEN;
+            wasm.verse_signString(retptr, this.ptr, ptr0, len0);
+            var r0 = getInt32Memory0()[retptr / 4 + 0];
+            var r1 = getInt32Memory0()[retptr / 4 + 1];
+            var r2 = getInt32Memory0()[retptr / 4 + 2];
+            var r3 = getInt32Memory0()[retptr / 4 + 3];
+            var ptr1 = r0;
+            var len1 = r1;
+            if (r3) {
+                ptr1 = 0; len1 = 0;
+                throw takeObject(r2);
+            }
+            return getStringFromWasm0(ptr1, len1);
+        } finally {
+            wasm.__wbindgen_add_to_stack_pointer(16);
+            wasm.__wbindgen_free(ptr1, len1);
+        }
+    }
+    /**
+    * Verify the signature.
+    * Verifies that the data was signed in the session of the session ID of the input
+    *
+    * @example
+    * see:  {@link Verse.sign}
+    * @param {string} session_id
+    * @param {string} signature
+    * @param {Uint8Array} data
+    * @returns {boolean}
+    */
+    static verify(session_id, signature, data) {
+        const ptr0 = passStringToWasm0(session_id, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+        const len0 = WASM_VECTOR_LEN;
+        const ptr1 = passStringToWasm0(signature, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+        const len1 = WASM_VECTOR_LEN;
+        const ret = wasm.verse_verify(ptr0, len0, ptr1, len1, addHeapObject(data));
+        return ret !== 0;
+    }
+    /**
+    * Verify the signature.
+    * Verifies that the data was signed in the session of the session ID of the input
+    *
+    * @example
+    * see:  {@link Verse.signString}
+    * @param {string} session_id
+    * @param {string} signature
+    * @param {string} data
+    * @returns {boolean}
+    */
+    static verifyString(session_id, signature, data) {
+        const ptr0 = passStringToWasm0(session_id, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+        const len0 = WASM_VECTOR_LEN;
+        const ptr1 = passStringToWasm0(signature, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+        const len1 = WASM_VECTOR_LEN;
+        const ptr2 = passStringToWasm0(data, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+        const len2 = WASM_VECTOR_LEN;
+        const ret = wasm.verse_verifyString(ptr0, len0, ptr1, len1, ptr2, len2);
+        return ret !== 0;
+    }
+    /**
     * For debugging.
     * @returns {string}
     */
@@ -1177,32 +1334,32 @@ function getImports() {
         getInt32Memory0()[arg0 / 4 + 1] = len0;
         getInt32Memory0()[arg0 / 4 + 0] = ptr0;
     };
-    imports.wbg.__wbindgen_closure_wrapper787 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 33, __wbg_adapter_32);
+    imports.wbg.__wbindgen_closure_wrapper789 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 34, __wbg_adapter_32);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper1765 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 72, __wbg_adapter_35);
+    imports.wbg.__wbindgen_closure_wrapper1767 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 73, __wbg_adapter_35);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper1771 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 72, __wbg_adapter_35);
+    imports.wbg.__wbindgen_closure_wrapper1773 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 73, __wbg_adapter_35);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper1774 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 72, __wbg_adapter_35);
+    imports.wbg.__wbindgen_closure_wrapper1776 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 73, __wbg_adapter_35);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper1777 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 72, __wbg_adapter_35);
+    imports.wbg.__wbindgen_closure_wrapper1779 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 73, __wbg_adapter_35);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper1780 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 72, __wbg_adapter_35);
+    imports.wbg.__wbindgen_closure_wrapper1782 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 73, __wbg_adapter_35);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper2276 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 33, __wbg_adapter_35);
+    imports.wbg.__wbindgen_closure_wrapper2277 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 34, __wbg_adapter_35);
         return addHeapObject(ret);
     };
 

@@ -31,6 +31,7 @@ export interface InitOutput
 |  [memory](./verse-core.initoutput.memory.md) | <code>readonly</code> | WebAssembly.Memory |  |
 |  [verse\_getDebugDistance](./verse-core.initoutput.verse_getdebugdistance.md) | <code>readonly</code> | (a: number, b: number) =&gt; void |  |
 |  [verse\_getDebugStatus](./verse-core.initoutput.verse_getdebugstatus.md) | <code>readonly</code> | (a: number, b: number) =&gt; void |  |
+|  [verse\_getSessionID](./verse-core.initoutput.verse_getsessionid.md) | <code>readonly</code> | (a: number, b: number) =&gt; void |  |
 |  [verse\_isMicOn](./verse-core.initoutput.verse_ismicon.md) | <code>readonly</code> | (a: number) =&gt; number |  |
 |  [verse\_isSpeakerOn](./verse-core.initoutput.verse_isspeakeron.md) | <code>readonly</code> | (a: number) =&gt; number |  |
 |  [verse\_maxAvatarFileSize](./verse-core.initoutput.verse_maxavatarfilesize.md) | <code>readonly</code> | (a: number) =&gt; number |  |
@@ -39,8 +40,12 @@ export interface InitOutput
 |  [verse\_micOn](./verse-core.initoutput.verse_micon.md) | <code>readonly</code> | (a: number) =&gt; number |  |
 |  [verse\_new](./verse-core.initoutput.verse_new.md) | <code>readonly</code> | (a: number, b: number, c: number, d: number, e: number, f: number) =&gt; void |  |
 |  [verse\_setMicAudioConstraints](./verse-core.initoutput.verse_setmicaudioconstraints.md) | <code>readonly</code> | (a: number, b: number) =&gt; void |  |
+|  [verse\_sign](./verse-core.initoutput.verse_sign.md) | <code>readonly</code> | (a: number, b: number, c: number) =&gt; void |  |
+|  [verse\_signString](./verse-core.initoutput.verse_signstring.md) | <code>readonly</code> | (a: number, b: number, c: number, d: number) =&gt; void |  |
 |  [verse\_speakerOff](./verse-core.initoutput.verse_speakeroff.md) | <code>readonly</code> | (a: number) =&gt; void |  |
 |  [verse\_speakerOn](./verse-core.initoutput.verse_speakeron.md) | <code>readonly</code> | (a: number) =&gt; void |  |
 |  [verse\_start](./verse-core.initoutput.verse_start.md) | <code>readonly</code> | (a: number) =&gt; number |  |
+|  [verse\_verify](./verse-core.initoutput.verse_verify.md) | <code>readonly</code> | (a: number, b: number, c: number, d: number, e: number) =&gt; number |  |
+|  [verse\_verifyString](./verse-core.initoutput.verse_verifystring.md) | <code>readonly</code> | (a: number, b: number, c: number, d: number, e: number, f: number) =&gt; number |  |
 |  [wasm\_bindgen\_\_convert\_\_closures\_\_invoke2\_mut\_\_h85133af50af7580c](./verse-core.initoutput.wasm_bindgen__convert__closures__invoke2_mut__h85133af50af7580c.md) | <code>readonly</code> | (a: number, b: number, c: number, d: number) =&gt; void |  |
 
